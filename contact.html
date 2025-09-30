@@ -1,0 +1,27 @@
+<!DOCTYPE html> <!-- DOCTYPE = ütleb brauserile, et see on HTML5 -->
+<html lang="et"> <!-- HTML = kogu dokumendi algus, keel eesti -->
+<head>
+  <meta charset="UTF-8"> <!-- META = täpitähtede tugi -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- et töötaks ka telefonides -->
+  <title>Kontakt</title> <!-- TITLE = lehe nimi brauseris -->
+  <link rel="stylesheet" href="style.css"> <!-- ühendame sama CSS faili -->
+</head>
+<body>
+  <main class="card"> <!-- MAIN = põhisisu kaardil -->
+    <h1>Võta minuga ühendust</h1> <!-- H1 = pealkiri -->
+
+    <form> <!-- FORM = näidisvorm -->
+      <label>Eesnimi:
+        <input type="text" name="firstName" placeholder="Sisesta nimi"> <!-- tekstiväli eesnime jaoks -->
+      </label>
+      <label>E-post:
+        <input type="email" name="email" placeholder="nimi@kool.ee"> <!-- e-posti väli -->
+      </label>
+      <button type="submit">Saada (näidis)</button> <!-- nupp, ei saada kuhugi -->
+    </form>
+
+    <p class="note">NB! See on ainult näidisvorm – andmeid ei saadeta kuhugi.</p> <!-- väike hoiatus/märkus -->
+    <p><a href="main_page.html" class="back-link">← Tagasi avalehele</a></p>
+  </main>
+</body>
+</html>
